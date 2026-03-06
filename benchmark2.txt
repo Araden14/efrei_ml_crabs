@@ -1,0 +1,29 @@
+==================================================
+BENCHMARK — sorted by MAE
+==================================================
+                         Model    MAE
+    Ensemble_PySmall+PyMed+HGB 1.3227
+   Ensemble_AllPyTorch+HGB+XGB 1.3229
+Ensemble_PySmall+PyMed+HGB+XGB 1.3241
+          Ensemble_PySmall+XGB 1.3277
+           Ensemble_AllPyTorch 1.3280
+                PyTorch_medium 1.3296
+          Ensemble_PySmall+HGB 1.3297
+                 PyTorch_small 1.3309
+      Ensemble_PySmall+HGB+XGB 1.3335
+                  PyTorch_deep 1.3385
+                 PyTorch_large 1.3463
+                    MLP_medium 1.3476
+                     MLP_small 1.3524
+          HistGradientBoosting 1.3571
+                  RandomForest 1.3661
+                       XGBoost 1.3688
+              GradientBoosting 1.3717
+                     MLP_large 1.3811
+                         Ridge 1.4179
+                 BayesianRidge 1.4179
+              LinearRegression 1.4180
+                         Lasso 1.4734
+                    ElasticNet 1.4777
+
+Best model: Ensemble_PySmall+PyMed+HGB with MAE = 1.3227

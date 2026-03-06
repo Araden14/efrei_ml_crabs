@@ -1,0 +1,17 @@
+           Model    MAE
+       PyTorch_small 1.3317
+      PyTorch_medium 1.3347
+        PyTorch_deep 1.3400
+       PyTorch_large 1.3509
+           MLP_small 1.3595
+HistGradientBoosting 1.3599
+           MLP_large 1.3601
+          MLP_medium 1.3655
+        RandomForest 1.3669
+             XGBoost 1.3688
+    GradientBoosting 1.3724
+               Ridge 1.4179
+       BayesianRidge 1.4179
+    LinearRegression 1.4180
+               Lasso 1.4734
+          ElasticNet 1.4777
