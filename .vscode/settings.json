@@ -1,0 +1,4 @@
+// select .venv in workspace
+{
+    "python.pythonPath": "${workspaceFolder}/.venv/bin/python"
+}
